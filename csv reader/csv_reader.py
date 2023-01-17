@@ -36,3 +36,5 @@ with dbEngine.connect() as connection:
 # in order to convert time from UNIX Epoch format to human readable format
 
 #UPDATE projects SET launched_at = datetime(launched_at, 'unixepoch', 'localtime')
+
+#types of state:                   

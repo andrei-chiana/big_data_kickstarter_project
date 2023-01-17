@@ -10,14 +10,17 @@ for file in os.listdir(path):
     if fnmatch.fnmatch(file, '*.csv'):
         csv_files.append(file)
 
-
-df_append = pd.DataFrame()
-#append all files together
+#make a list of dataframes for each csv file
+df_list = []
 for file in csv_files:
             file_path = os.path.join(path, file)
             df_temp = pd.read_csv(file_path)
-            df_append = df_append.append(df_temp, ignore_index=True)
+            df_list.append(df_temp)
+            
+#merge all those dataframes into one            
+df_concat = pd.concat(df_list, ignore_index=True)
 
-print(df_append)
+#keep only the columns that are necessary
+data = df_concat[["category","launched_at", "name", "state"]]
 
-
+print(data)

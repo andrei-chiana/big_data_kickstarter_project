@@ -1,12 +1,14 @@
 # Big Data Kickstarter Analysis Project
 
 ## Description:
-This is a group project made for the Big Data - Data Analysis course from the University of Groningen, Netherlands (UCG2SC11)
+This is a group project made for the Big Data - Data Analysis course from the University of Groningen, Netherlands (UCG2SC11).
+
+It makes usage of Python, Jupyter Notebook, Dask, Pandas, Matplotlib, as well as Plotly.
 
 Group Members:
 Andrei Chiana (@andrei-chiana)
 Dhriti Arjun (@dhritiarjun)
-Dominika Kapunscinska 
+Dominika Kapunscinska (@dominikalykowska)
 Michael Evenhuis (@evenhuis99)
 Nora Bongaardt (@NoraRBo)
 

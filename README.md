@@ -16,5 +16,6 @@ Nora Bongaardt (@NoraRBo)
 
  - README.MD
  - data (this folder contains a small sample of data, the rest of the data can be obtained from https://webrobots.io/kickstarter-datasets/)
- - project notebook.ipynb (Jupyter Notebook containing all of our code)
+ - GroupC_BigDataProjectPythonCode.ipynb (Jupyter Notebook containing all of our code)
+ - GroupC_BigDataProjectReport.pdf (PDF Report of the Project)
  - requirements.txt (requirements and dependencies that are needed to run the code)
